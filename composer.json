@@ -1,0 +1,27 @@
+{
+  "name": "ytnobody/Harpuia",
+  "description": "A Thin JSON API Framework for Microsoft Azure Web Apps",
+  "type": "library",
+  "keywords": [
+    "json",
+    "api",
+    "azure",
+    "tiny",
+    "framework"
+  ],
+  "homepage": "https://github.com/ytnobody/Harpuia",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0",
+    "microsoft/application-insights": ">=0.4.0"
+  },
+  "require-dev": {
+    "codeception/codeception": "*",
+    "evert/phpdoc-md": "~0.0.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Harpuia\\": "Harpuia/"
+    }
+  }
+}

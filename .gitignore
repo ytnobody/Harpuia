@@ -1,0 +1,8 @@
+# ignore composer 
+composer.lock
+*.lock
+*.phar
+vendor
+
+# ignore test output
+tests/_output
